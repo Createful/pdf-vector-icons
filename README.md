@@ -1,5 +1,5 @@
-#PDF Vector Icons
-================
+#PDF Vector Icons for iOS
+=========================
 
 ![pdf vector icons](pdf_icons.png)
 
