@@ -16,7 +16,7 @@ PDF icons are scaled at build time to work at each device resolution, however it
 ##Usage
  - Create a new image group in your project's asset catalog. 
  - Drag the desired PDF vector icon into the @1x size. 
- - In the attribute innspector for the selected image group, select `Types: Vector` under Image Set.
+ - In the attribute inspector for the selected image group, select `Types: Vector` under Image Set.
  - The vector icon is now ready to use!
 
 ##Licenses
