@@ -11,7 +11,7 @@ The icons are produced by [Simple Icon](http://www.flaticon.com/authors/simpleic
 
 ##Dimensions
 
-PDF icons are scaled at build time to work at each device resolution, however it is not possible to linearly scale pdf images to arbitrary dimensions. For this reason, we have provided the icons in Apple's [recommended dimensions](https://developer.apple.com/library/IOs/documentation/UserExperience/Conceptual/MobileHIG/IconMatrix.html) for standard toolbar and navigation bar icons (22x22), which should work well for a variety of use cases.
+PDF icons are scaled at build time to work at each device resolution, however it is not (currently) possible to linearly scale pdf images to arbitrary dimensions. For this reason, we have provided the icons in Apple's [recommended dimensions](https://developer.apple.com/library/IOs/documentation/UserExperience/Conceptual/MobileHIG/IconMatrix.html) for standard toolbar and navigation bar icons (22x22), which should work well for a variety of use cases.
 
 ##Usage
  - Create a new image group in your project's asset catalog. 
