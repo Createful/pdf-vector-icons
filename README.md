@@ -19,6 +19,16 @@ PDF icons are scaled at build time to work at each device resolution, however it
  - In the attribute inspector for the selected image group, select `Types: Vector` under Image Set.
  - The vector icon is now ready to use!
 
+## Colours
+Why are the icons only available in black? Xcode 6 also allows you to set the tint colour applied to the vector image. To enable this, ensure `Render As: Template Image` is set in the asset attribute inspector.
+
+You can apply a tint colour using interface builder or manually in code:
+
+    // Obj-C
+    [imageView setTintColor:[UIColor whiteColor]];
+    // Swift
+    imageView.tintColor = UIColor.whiteColor()
+
 ##Licenses
 Simpleicons are distributed under
 [CC BY](http://creativecommons.org/licenses/by/3.0/) licence.
